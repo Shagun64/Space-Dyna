@@ -1,0 +1,126 @@
+.contact
+{
+    padding: 160px 0px;
+    background-image: url('https://templatemo.com/templates/templatemo_562_space_dynamic/assets/images/contact-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .contact-left-section
+    {
+        margin-bottom: 30px;
+        
+        ul
+        {
+            list-style-type: none;
+            color: $white;
+            li
+            {
+                h4
+                {
+                    font-family: $font-name;
+                    font-size: 2rem;
+                    line-height: 1.5;
+                    font-weight: 600;
+                }
+                p
+                {
+                    margin: 30px 0px;
+                    font-family: $font-name;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                }
+            }
+            .contact-call
+            {
+                margin: auto 0;
+                h3
+                {
+                    font-family: $font-name;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+
+                    span
+                    {
+                        i
+                        {
+                            width: 46px;
+                            height: 46px;
+                            display: inline-block;
+                            text-align: center;
+                            line-height: 46px;
+                            background-color: #fff;
+                            border-radius: 50%;
+                            color: #ff3b2c;
+                            font-size: 22px;
+                            margin-left: 30px;
+                            margin-right: 15px;
+
+                        }  
+
+                    }
+                    a
+                    {
+                        font-size: 1.2rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .contact-right-section
+    {
+        margin-left: 30px;
+        position: relative;
+        background-color: #fff;
+        padding: 60px 30px;
+        border-radius: 20px;
+        margin-left: 0;
+        form
+        {
+            
+            input
+            {
+                width: 100%;
+                background-color: #d1f3ff;;
+                border: none;
+                margin-bottom: 30px;
+                padding: 15px;
+                border-radius: 25px;
+            }
+            fieldset
+            {
+                width: 100%;
+                textarea
+                {
+                    background-color: #d1f3ff;;
+                    border: none;
+                    width: 100%;
+                    border-radius: 25px;
+                    padding: 10px 0 0 15px;
+                }
+            }
+            button
+            {
+                background-color: $primary-color;
+                border: none;
+                padding: 12px 30px;
+                border-radius: 25px;
+                color: $white;
+                font-family: $font-name;
+                font-family: 500;
+                margin-top: 30px;
+            }
+        }
+    }
+    .contact-img
+    {
+        position: relative;
+        img
+        {
+            position: absolute;
+            right: -150px;
+            top: -320px;
+        }
+    }
+}

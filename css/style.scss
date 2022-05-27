@@ -1,0 +1,24 @@
+$primary-color: #03A4ED;
+$secondry-color: #FE3F40;
+$text-color: #2A2A2A;
+$white: #fff;
+$font-name : poppins;
+$gray: #afafaf;
+
+.text-blue
+{
+    color: $primary-color;
+}
+.text-red
+{
+    color:$secondry-color;
+}
+@import "header";
+@import "aboutus";
+@import "services";
+@import "portfolio";
+@import "blog";
+@import "contact";
+@import "footer";
+@import "mediaquery";
+

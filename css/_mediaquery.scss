@@ -1,0 +1,208 @@
+// Media Query's
+
+// Navbar Section Start
+
+@media only screen and (max-width: 1200px)
+
+{
+    .navbar-nav
+    {
+        background-color: #fafafa;
+        text-align: center;
+    }
+    .nav-item
+    {
+        border-bottom: 1px solid #e7e7e7;
+    }
+}
+
+
+// Navbar Section End
+
+// Hero Section Start
+
+@media only screen and (max-width: 991px)
+
+{
+    .hero
+    {
+        text-align: center;
+        width: 100%!important;
+        padding: 226px 0px 120px 0px;
+        position: relative;
+        overflow: hidden;
+    }
+    .hero-left
+    {
+        margin-bottom: 50px;
+        width: 100%;
+
+        .search-bar
+        {
+            margin: 0 auto;
+        }
+    }
+}
+
+// Hero Section End
+
+// Navbar Section End
+
+// Featured Card Section Start
+
+@media only screen and (max-width: 991px)
+{
+
+    .feature
+    {
+        margin: 0;
+        background-image: none;
+        position: relative;
+        .featured-bg-img 
+        {
+            padding-right: 0px;
+            position: absolute;
+            width: auto;
+            z-index: -1;
+            bottom: -120px;
+            right: 0;
+            img
+            {
+                padding-right: 0px;
+            }
+        }
+        .featured-cards
+        {
+            display: inline-block;
+            margin-left: auto;
+            padding: 0 10%;
+        }
+        .featured-card-1
+        {
+            border-radius: 20px;
+            padding: 30px;
+            background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+        }
+    }
+}
+
+// Featured Card Section End
+
+// Services Section Start
+
+@media only screen and (max-width: 991px)
+
+{
+    .our-services
+    {
+        .service-img
+        {
+            margin-bottom: 45px;
+        }
+       .section-heading
+       {
+           text-align: center;
+       }
+    }
+}
+
+// Services Section End
+
+// Offers Section Start
+
+@media only screen and (max-width: 991px)
+
+{
+    .offers
+    {
+        .card-1
+        {
+            margin-bottom: 150px;
+        }
+    }
+}
+
+// Offers Section End
+
+// Blogs Section Start
+
+@media only screen and (max-width: 991px)
+
+{
+    .news
+    {
+        position: relative;
+        .blog-mid-section
+        {
+            .blog-left
+            {
+                margin-bottom: 200px;
+                .info
+                {
+                    width: 100%;
+                        .inner-content
+                        {
+                            .discover-btn
+                            {
+                                position: static;
+                                margin-top: 20px;
+                            }
+                        }
+                }
+            }
+            .blog-right
+            {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 574px)
+
+{
+    .news
+    {
+        .blog-mid-section
+        {
+            .blog-left
+            {
+                margin-bottom: 250px;
+            }
+            .blog-right
+            {
+                justify-content: center;
+                .blog-right-card1
+                {
+                    overflow: hidden;
+                    flex-wrap: wrap;
+                    .blog-card1-img 
+                    {
+                        width: 100%;
+                        overflow: hidden;
+                        img
+                        {
+                            width: 100%;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 364px)
+
+{
+    .news
+    {
+        .blog-mid-section
+        {
+            .blog-left
+            {
+                margin-bottom: 300px;
+            }
+        }
+    }
+}
+// Blogs Section End

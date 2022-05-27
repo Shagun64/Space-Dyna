@@ -1,0 +1,56 @@
+// Featured Section Start
+
+.feature
+{
+    width: 100%;
+    margin: 100px 0;
+    padding: 140px 0 120px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    background-image: url('https://templatemo.com/templates/templatemo_562_space_dynamic/assets/images/about-bg.png');
+
+    .featured-bg-img
+    {
+        img
+        {
+        padding-right: 45px;
+        width: 100%;
+        overflow: hidden;
+        }
+    }
+    .icon
+    {
+        float: left;
+        margin-right: 25px;
+        img
+        {
+        max-width: 70px;
+        }
+    }
+    .featured-card-1
+    {
+        margin-bottom: 30px;
+    }
+    .card-info 
+    {
+        h1
+        {
+            width: fixed;
+            font-family: $font-name;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: $white;
+        }
+        p
+        {
+            color: $white;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+// Featured Section End

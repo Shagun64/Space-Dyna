@@ -1,0 +1,150 @@
+
+
+.news
+{
+    position: relative;
+    .blog-top-section
+    {
+        .section-heading 
+        {
+            h1
+            {
+                font-family: $font-name;
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 1.5;
+            }
+        }
+        .img 
+        {
+            text-align: end;
+            margin-top: -50px;
+        }
+    }
+
+    .blog-mid-section
+    {
+        position: relative;
+            .blog-left
+            {
+                position: relative;
+                .blog-big-img img
+                {
+                    border-radius: 20px;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                }
+                .info
+                {
+                    width: 90%;
+                    position: relative;
+                    .inner-content
+                    {
+                        background-color: $white;
+                        padding: 30px;
+                        border-radius: 20px;
+                        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.20);
+                        position: absolute;
+                        top: -100px;
+                        ul
+                        {
+                            list-style-type: none;
+                            display: flex;
+                            flex-wrap: wrap;
+                            padding-left: 0;
+                            li
+                            {
+                                margin-right: 24px;
+                                font-family: $font-name;
+                                font-size: 16px;
+                                font-weight: 300;
+                                color: $gray;
+                                i
+                                {
+                                    color: $secondry-color;
+                                    margin-right: 8px;
+                                }
+                            }
+                        }
+                        h4
+                        {
+                            margin: 20px 0px;
+                            font-family: $font-name;
+                            font-weight: 700;
+                            letter-spacing: 0.25px;
+                        }
+                        p
+                        {
+                            font-size: 15px;
+                            line-height: 30px;
+                            color: $text-color;
+                            margin-bottom: 0;
+
+                        }
+                        .discover-btn
+                    {
+                            position: absolute;
+                            bottom: -80px;
+                            left: 0;
+                            a
+                            {
+                                padding: 12px 25px;
+                            }
+                    }
+                    }
+                }
+            }
+            .blog-right
+            {
+                position: relative;
+                margin-left: 30px;
+                margin-top: 45px;
+                .blog-right-card1
+                {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    margin-bottom: 30px;
+
+                    .details
+                    {
+                        margin-right: 45px;
+                        align-self: center;
+
+                        p
+                        {
+                            font-family: $font-name;
+                            color: $gray;
+                            i
+                            {
+                                color: $secondry-color;
+                                margin-right: 8px;
+                            }
+                        }
+                        h4
+                        {
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #2a2a2a;
+                            margin: 20px 0px 15px 0px;
+                        }
+                        p
+                        {
+                            font-size: 15px;
+                            line-height: 30px;
+                            color: $text-color;
+                        }
+                    }
+                    .blog-card1-img
+                    {
+                        img
+                        {
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+    }
+}
+
